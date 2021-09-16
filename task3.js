@@ -5,6 +5,7 @@ function test(S) {
         const numB = reduceStringToCharOccurences(S, 'b');
 
         if (numB < 3) {
+            console.log('aa');
             return 0;
         }
 
